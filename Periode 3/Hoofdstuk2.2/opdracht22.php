@@ -7,7 +7,7 @@
  */
 $text1 = "Hallo";
 $text2 = " een makkelijke taal";
-$text3 = " toch zo'n makkelijke taal";
+$text3 = " toch zo'n makkelijke taall";
 $text4 = " wat is";
 $text5 = " PHP";
 $text6 = " Nooit gedacht dat";
