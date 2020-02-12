@@ -1,17 +1,24 @@
+<!Doctype html>
+<html>
 <?php
-/**
+/*
  * User: Naam
  * Date: Date
  * Time: 12:06 PM
  * File: index.php
  */
 echo "Hello world";
-
 ?>
+<head>
+    <title>
+        Opdracht 2.1 PHP
+    </title>
+</head>
 <body>
-<link href="css/style.css" type="text/css" rel="stylesheet">
+
 <header>
     <h1><?php echo "Uitwerkingen van PHP-opdrachten"; ?></h1>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
 </header>
 <aside>
     <h2>Menu</h2>
@@ -19,10 +26,10 @@ echo "Hello world";
         <li>Hoofdstuk 2
             <ul>
                 <li>
-                    <a href="hoofdstuk2/opdracht_2-1.php">Opdracht 2.1</a>
+                    <a href="Hoofdstuk2.1/opdracht_2-1.php">Opdracht 2.1</a>
                 </li>
                 <li>
-                    <a href="hoofdstuk2/opdracht_2-2.php">Opdracht 2.2</a>
+                    <a href="Hoofdstuk2.2/opdracht_2-2.php">Opdracht 2.2</a>
                 </li>
             </ul>
         </li>
@@ -83,3 +90,4 @@ echo "Hello world";
     <h2>Uitwerkingen</h2>
 </main>
 </body>
+</html>

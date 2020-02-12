@@ -19,7 +19,7 @@ echo "Hello world";
         <li>Hoofdstuk 2
             <ul>
                 <li>
-                    <a href="hoofdstuk2/opdracht_2-1.php">Opdracht 2.1</a>
+                    <a href="Hoofdstuk2.1/opdracht2.1.php">Opdracht 2.1</a>
                 </li>
                 <li>
                     <a href="Hoofdstuk2.2/opdracht22.php">Opdracht 2.2</a>
