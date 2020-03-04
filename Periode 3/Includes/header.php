@@ -13,6 +13,7 @@ echo "<!DOCTYPE html>
     <title>
         Opdracht ? PHP
     </title>
+    <link href='../Includes/Opdracht33.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <header>

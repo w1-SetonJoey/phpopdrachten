@@ -1,5 +1,5 @@
-<?php include ''; ?>
-
+<?php include 'Includes/header.php'; ?>
+<?php include "Includes/variabelen.php"; ?>
 <aside>
     <h2>Menu</h2>
     <ul>
@@ -71,3 +71,4 @@
 </main>
 </body>
 </html>
+<?php include "Includes/footer.php"; ?>
