@@ -1,18 +1,5 @@
-<?php
-/**
- * User: Naam
- * Date: Date
- * Time: 12:06 PM
- * File: index.php
- */
-echo "Hello world";
+<?php include ''; ?>
 
-?>
-<body>
-<link href="style.css" type="text/css" rel="stylesheet">
-<header>
-    <h1><?php echo "Uitwerkingen van PHP-opdrachten"; ?></h1>
-</header>
 <aside>
     <h2>Menu</h2>
     <ul>
@@ -83,3 +70,4 @@ echo "Hello world";
     <h2>Uitwerkingen</h2>
 </main>
 </body>
+</html>
