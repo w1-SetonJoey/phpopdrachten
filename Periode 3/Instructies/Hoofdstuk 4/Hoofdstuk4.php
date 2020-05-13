@@ -19,4 +19,15 @@
     echo "De datum en tijd in New York is nu : $vandaag";
 
 ?>
+<?php
+$task2 = "Lancering in :";
+$teller = 19;
+//
+while ($teller >=0) {
+    $task2 = $task2.$teller.",";
+    $teller--;
+}
 
+
+$task3 = "Lancering in :";
+?>

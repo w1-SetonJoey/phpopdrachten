@@ -1,9 +1,8 @@
 <?php include 'variabelen.php'; ?>
-<link href="Opdracht33.css" rel="stylesheet" type="text/css">
 <?php
 
 
-/*Formaat selectie */
+/*Hier word het formaat geselecteerd */
 $uur = date("H");
 /* Hier word de tijdzone geselecteerd */
 $timezone = date("e");

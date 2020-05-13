@@ -18,13 +18,13 @@
         <li>Hoofdstuk 3
             <ul>
                 <li>
-                    <a href="hoofdstuk3/opdracht_3-1.php">Opdracht 3.1</a>
+                    <a href="Hoofdstuk%203.1/opdracht3.1.php">Opdracht 3.1</a>
                 </li>
                 <li>
                     <a href="hoofdstuk3/opdracht_3-2.php">Opdracht 3.2</a>
                 </li>
                 <li>
-                    <a href="hoofdstuk3/opdracht_3-3.php">Opdracht 3.3</a>
+                    <a href="Hoofdstuk3.3/opdrachtr33.php">Opdracht 3.3</a>
                 </li>
             </ul>
         </li>
