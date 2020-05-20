@@ -19,9 +19,5 @@ if ($uur < "12") {
                 echo "Goedenacht";
             }
 
-
-
-
-
-echo "<footer> copyright $name $year</footer>";
+            echo "<footer> copyright $name $year</footer>";
 echo "</body></html>";
