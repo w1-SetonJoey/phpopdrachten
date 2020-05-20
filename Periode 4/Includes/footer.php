@@ -1,24 +1,24 @@
-<?php include 'variabelen.php'; ?>
 <?php
+include 'variabelen.php'; ?>
+
+<footer>
+    <?php
+
+    $bezoeker = "";
 
 
-/*Hier word het formaat geselecteerd */
-$uur = date("H");
-/* Hier word de tijdzone geselecteerd */
-$timezone = date("e");
-if ($uur < "12") {
-    echo "Goedemorgen";
-} else
-    if ($uur >= "12" && $uur < "17") {
-        echo "Goedemiddag";
-    } else
-        if ($uur >= "17" && $uur < "19") {
-            echo "Goedeavond";
-        } else
-            if ($uur >= "19") {
-                echo "Goedenacht";
-            }
 
-            echo "<footer> copyright $name $year</footer>";
-echo "</body></html>";
 
+    if (isset($_SESSION['username'])) {
+        $bezoeker = $_SESSION['username']. "&nbsp;<a
+href='../Hoofdstuk%206/6.1/loguit.php'>Loguit</a>";
+    }
+    else {
+        $bezoeker = "onbekende bezoeker". "&nbsp;<a
+href='../Hoofdstuk%206/6.1/opdracht61.php'>Login</a>";
+    }
+    echo $bezoeker.$year." ".$greeting;
+    ?>
+</footer>
+</body>
+</html>
